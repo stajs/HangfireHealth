@@ -18,6 +18,8 @@ namespace HangfireHealth.ConsoleApp
 				.AddEntityFramework()
 				.AddSqlServer()
 				.AddDbContext<HangfireHealthDbContext>(options => options.UseSqlServer("Server=.\\sqlexpress;Database=HangfireHealth;Trusted_Connection=True;MultipleActiveResultSets=true"));
+
+			services.AddTransient<Job>();
 		}
 
 		public static void Main(string[] args)
