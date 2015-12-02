@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2C65423-CE14-448A-AC2F-D46FA3B357C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4EAFE94D-3F09-4842-9590-CAEEBD90F0F7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HangfireHealth.ConsoleApp", "src\HangfireHealth.ConsoleApp\HangfireHealth.ConsoleApp.xproj", "{7CA7C44C-4EAE-4C62-8DBC-327A356FB8FD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HangfireHealth.Website", "src\HangfireHealth.Website\HangfireHealth.Website.xproj", "{C929BE37-FE8D-4ECC-9424-2734B58DF666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CA7C44C-4EAE-4C62-8DBC-327A356FB8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA7C44C-4EAE-4C62-8DBC-327A356FB8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA7C44C-4EAE-4C62-8DBC-327A356FB8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA7C44C-4EAE-4C62-8DBC-327A356FB8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C929BE37-FE8D-4ECC-9424-2734B58DF666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C929BE37-FE8D-4ECC-9424-2734B58DF666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C929BE37-FE8D-4ECC-9424-2734B58DF666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C929BE37-FE8D-4ECC-9424-2734B58DF666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CA7C44C-4EAE-4C62-8DBC-327A356FB8FD} = {F2C65423-CE14-448A-AC2F-D46FA3B357C5}
+		{C929BE37-FE8D-4ECC-9424-2734B58DF666} = {F2C65423-CE14-448A-AC2F-D46FA3B357C5}
+	EndGlobalSection
+EndGlobal
